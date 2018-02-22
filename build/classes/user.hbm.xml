@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.login.user">
+	<class name="User" table="dane">
+
+		<id name="id" column="id" type="int">
+			<generator class="native" />
+		</id>
+
+		<property name="username" column="username" type="string" />
+		<property name="password" column="password" type="string" />
+		<property name="firstName" column="firstname" type="string" />
+		<property name="lastName" column="lastname" type="string" />
+		<property name="email" column="email" type="string" />
+		<property name="age" column="age" type="int" />
+
+		<property name="januarySalary" column="january_salary" type="string" />
+		<property name="februarySalary" column="february_salary" type="string" />
+		<property name="marchSalary" column="march_salary" type="string" />
+		<property name="aprilSalary" column="april_salary" type="string" />
+		<property name="maySalary" column="may_salary" type="string" />
+		<property name="juneSalary" column="june_salary" type="string" />
+		<property name="julySalary" column="july_salary" type="string" />
+		<property name="augustSalary" column="august_salary" type="string" />
+		<property name="septemberSalary" column="september_salary" type="string" />
+		<property name="octoberSalary" column="october_salary" type="string" />
+		<property name="novemberSalary" column="november_salary" type="string" />
+		<property name="decemberSalary" column="december_salary" type="string" />	
+
+	</class>
+</hibernate-mapping>

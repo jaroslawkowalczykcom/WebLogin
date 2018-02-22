@@ -1,3 +1,4 @@
+
 <%@ page import="java.sql.DriverManager"%>
 <%@ page import="java.sql.ResultSet"%>
 <%@ page import="java.sql.Statement"%>
@@ -9,9 +10,9 @@
 <%
 	String driverName = "com.mysql.jdbc.Driver";
 	String connectionUrl= "jdbc:mysql://localhost/";
-	String dbName = "login";
-	String userId = "root";
-	String password = "";
+	String dbName = "admin_db";
+	String userId = "admin_admin";
+	String password = "jarek1234";
 	
 	try {
 		Class.forName(driverName);
@@ -60,7 +61,24 @@
             <center><img src="images/login2.png"></center>
             <center><h1>Users list</h1></center>
             <center><h6>Expends Management System</h6></center><br />
-            
+   
+            <ul class="nav nav-tabs nav-fill">
+			  <li class="nav-item">
+			    <a class="nav-link" href="loggedin.jsp">Home</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link active" href="userslist.jsp">Users List</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="januaryExp.jsp">January expends</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="Logout">Logout</a>
+			  </li>
+			</ul>
+			
+			<br />
+			            
       
       <div class="row">
           <div class="col-md-2 col-sm-2 col-xs-12">

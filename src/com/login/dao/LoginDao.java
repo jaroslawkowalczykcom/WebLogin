@@ -8,9 +8,9 @@ import java.sql.ResultSet;
 public class LoginDao {
 	
 	String sql = "SELECT `username`, `password` FROM `dane` WHERE `username`=? AND `password`=?";
-	String url = "jdbc:mysql://localhost/login";
-	String username = "root";
-	String password = "";
+	String url = "jdbc:mysql://localhost/admin_db";
+	String username = "admin_admin";
+	String password = "jarek1234";
 	
 	public boolean check(String uname, String pass)
 	{

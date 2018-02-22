@@ -54,18 +54,6 @@
 			    <a class="nav-link" href="januaryExp.jsp">January expends</a>
 			  </li>
 			  <li class="nav-item">
-			    <a class="nav-link" href="userslist.jsp">Users List</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="userslist.jsp">Users List</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="userslist.jsp">Users List</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="userslist.jsp">Users List</a>
-			  </li>
-			  <li class="nav-item">
 			    <a class="nav-link" href="Logout">Logout</a>
 			  </li>
 			</ul>
@@ -75,8 +63,8 @@
 				<div style="text-align: center">    
 	            	Welcome:<h5> ${uname}</h5><br /><br />
 		            
-		            <h6>Congratulation You're logged in system successfully.<br />
-		            You have access to full information of this site.</h6> 
+		            <p>Congratulation You're logged in system successfully.<br />
+		            You have access to full information of this site.</p> 
 	            </div>
             <br />
            	<br />

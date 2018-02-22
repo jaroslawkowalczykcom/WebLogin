@@ -1,6 +1,7 @@
 package com.login.user;
 
 public class User {
+	
 	private int id;
 	private String username;
 	private String password;
@@ -251,5 +252,7 @@ public class User {
 	public String toString() {
 		return "User [id=" + id + ", firstName=" + firstName + ", last Name" + lastName + "]";
 	}
+
+	
 	
 }
