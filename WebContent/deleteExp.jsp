@@ -29,7 +29,7 @@
 
 	<%
 		String driverName = "com.mysql.jdbc.Driver";
-		String connectionUrl= "jdbc:mysql://localhost/";
+		String connectionUrl= "jdbc:mysql://jarq.nazwa.pl/";
 		String dbName = "admin_db";
 		String userId = "admin_admin";
 		String password = "jarek1234";

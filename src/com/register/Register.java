@@ -32,7 +32,7 @@ public class Register extends HttpServlet {
 			int age = Integer.parseInt(request.getParameter("age"));
 			
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost/admin_db", "admin_admin", "jarek1234");
+			Connection con = DriverManager.getConnection("jdbc:mysql://jarq.nazwa.pl/admin_db", "admin_admin", "jarek1234");
 			Statement st = con.createStatement();
 			
 			// Username veryfication

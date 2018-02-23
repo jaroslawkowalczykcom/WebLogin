@@ -36,11 +36,11 @@
             </div>
             <br />
             <button type="submit" class="btn btn-success btn-block">Sign Up</button>
-            <center><a href="register.jsp" style="color: #009999">Click Here to register new User</a></center>
+            <div class="center"><a href="register.jsp" style="color: #009999">Click Here to register new User</a></div>
             
-           <div class="error">${errorMessage}</div> 
+            <div class="error">${errorMessage}</div> 
             	
-            <center><label class="label-bottom">Copyright c 2018 by Jaroslaw Kowalczyk</label></center>
+            <div class="center"><label class="label-bottom">Copyright c 2018 by Jaroslaw Kowalczyk</label></div>
           </form>
           
         </div>

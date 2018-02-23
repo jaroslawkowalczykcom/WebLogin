@@ -7,15 +7,16 @@ import java.sql.ResultSet;
 
 public class LoginDao {
 	
-	String sql = "SELECT `username`, `password` FROM `dane` WHERE `username`=? AND `password`=?";
-	String url = "jdbc:mysql://localhost/admin_db";
+	String sql = "SELECT `username`, `password`, `id` FROM `dane` WHERE `username`=? AND `password`=?";
+	String url = "jdbc:mysql://jarq.nazwa.pl/admin_db";
 	String username = "admin_admin";
 	String password = "jarek1234";
+	String driver = "com.mysql.jdbc.Driver";
 	
 	public boolean check(String uname, String pass)
 	{
 		try {
-			Class.forName("com.mysql.jdbc.Driver");  
+			Class.forName(driver);  
 			Connection con = DriverManager.getConnection(url, username, password);
 			PreparedStatement st = con.prepareStatement(sql);
 			st.setString(1, uname);
@@ -32,5 +33,6 @@ public class LoginDao {
 		
 		return false;
 	}
+	
 
 }

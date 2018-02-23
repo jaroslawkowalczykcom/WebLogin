@@ -9,7 +9,7 @@
 
 <%
 	String driverName = "com.mysql.jdbc.Driver";
-	String connectionUrl= "jdbc:mysql://localhost/";
+	String connectionUrl= "jdbc:mysql://jarq.nazwa.pl/";
 	String dbName = "admin_db";
 	String userId = "admin_admin";
 	String password = "jarek1234";
@@ -84,42 +84,42 @@
           <div class="col-md-2 col-sm-2 col-xs-12">
             <div class="form-group">
               <label>Username:</label>
-              <input type="text" class="form-control" name="username" value="">
+              <input type="text" class="form-control" name="username" required="required">
             </div>
           </div>
           
           <div class="col-md-2 col-sm-2 col-xs-12"> 
             <div class="form-group">
               <label>Password:</label>
-              <input type="password" class="form-control" name="password" value="">
+              <input type="password" class="form-control" name="password" required="required">
             </div>
           </div>
             
           <div class="col-md-2 col-sm-2 col-xs-12"> 
             <div class="form-group">
               <label>First Name:</label>
-              <input type="text" class="form-control" name="firstname" value="">
+              <input type="text" class="form-control" name="firstname" required="required">
             </div>
           </div>
           
           <div class="col-md-2 col-sm-2 col-xs-12"> 
             <div class="form-group">
               <label>Last Name:</label>
-              <input type="text" class="form-control" name="lastname" value="">
+              <input type="text" class="form-control" name="lastname" required="required">
             </div>
           </div>
           
           <div class="col-md-2 col-sm-2 col-xs-12">
             <div class="form-group">
               <label>E-mail address:</label>
-              <input type="text" class="form-control" name="email" value="">
+              <input type="text" class="form-control" name="email" required="required">
             </div>
           </div>
           
           <div class="col-md-1 col-sm-1 col-xs-12"> 
             <div class="form-group">
               <label>Age:</label>
-              <input type="text" class="form-control" name="age" value="">
+              <input type="text" class="form-control" name="age" required="required">
             </div>
           </div> 
           
@@ -138,66 +138,66 @@
           <div class="col-md-2 col-sm-2 col-xs-12">
             <div class="form-group">
               <label>January salary:</label>
-              <input type="text" class="form-control" name="januarySalary">
+              <input type="text" class="form-control" name="januarySalary" value="0">
             </div>
             <div class="form-group">
               <label>February salary:</label>
-              <input type="text" class="form-control" name="februarySalary">
+              <input type="text" class="form-control" name="februarySalary" value="0">
             </div>
           </div>
           
           <div class="col-md-2 col-sm-2 col-xs-12">
             <div class="form-group">
               <label>March salary:</label>
-              <input type="text" class="form-control" name="marchSalary">
+              <input type="text" class="form-control" name="marchSalary" value="0">
             </div>
             <div class="form-group">
               <label>April salary:</label>
-              <input type="text" class="form-control" name="aprilSalary">
+              <input type="text" class="form-control" name="aprilSalary" value="0">
             </div>
           </div>
             
           <div class="col-md-2 col-sm-2 col-xs-12">
             <div class="form-group">
               <label>May salary:</label>
-              <input type="text" class="form-control" name="maySalary">
+              <input type="text" class="form-control" name="maySalary" value="0">
             </div>
             <div class="form-group">
               <label>June salary:</label>
-              <input type="text" class="form-control" name="juneSalary">
+              <input type="text" class="form-control" name="juneSalary" value="0">
             </div>
           </div>
           
           <div class="col-md-2 col-sm-2 col-xs-12">
             <div class="form-group">
               <label>July salary:</label>
-              <input type="text" class="form-control" name="julySalary">
+              <input type="text" class="form-control" name="julySalary" value="0">
             </div>
             <div class="form-group">
               <label>August salary:</label>
-              <input type="text" class="form-control" name="augustSalary">
+              <input type="text" class="form-control" name="augustSalary" value="0">
             </div>
           </div>
           
           <div class="col-md-2 col-sm-2 col-xs-12">
             <div class="form-group">
               <label>September salary:</label>
-              <input type="text" class="form-control" name="septemberSalary">
+              <input type="text" class="form-control" name="septemberSalary" value="0">
             </div>
             <div class="form-group">
               <label>October salary:</label>
-              <input type="text" class="form-control" name="octoberSalary">
+              <input type="text" class="form-control" name="octoberSalary" value="0">
             </div>
           </div>
           
           <div class="col-md-2 col-sm-2 col-xs-12">
             <div class="form-group">
               <label>November salary:</label>
-              <input type="text" class="form-control" name="novemberSalary">
+              <input type="text" class="form-control" name="novemberSalary" value="0">
             </div>
             <div class="form-group">
               <label>December salary:</label>
-              <input type="text" class="form-control" name="decemberSalary">
+              <input type="text" class="form-control" name="decemberSalary" value="0">
             </div>
           </div>
 	   </div>
